@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test1.MainActivity">
+
+
+    <Button
+        android:onClick="mainClick"
+        android:id="@+id/btn_test2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test2"
+        />
+    <Button
+        android:onClick="mainClick"
+        app:layout_constraintTop_toBottomOf="@+id/btn_test2"
+        android:id="@+id/btn_car"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="car"
+        />
+    <Button
+        android:onClick="mainClick"
+        app:layout_constraintTop_toBottomOf="@+id/btn_car"
+        android:id="@+id/btn_bike"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bike"
+        />
+    <Button
+        android:onClick="mainClick"
+        app:layout_constraintTop_toBottomOf="@+id/btn_bike"
+        android:id="@+id/btn_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ad"
+        />
+
+
+</android.support.constraint.ConstraintLayout>
